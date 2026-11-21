@@ -1,0 +1,14 @@
+body { background: #15151c; color: #eee; font-family: Arial, sans-serif; }
+#game { display: flex; gap: 24px; }
+#board { display: grid; gap: 1px; }
+.cell { width: 32px; height: 32px; }
+.wall   { background: #3a3a48; }
+.floor  { background: #22222c; }
+.door   { background: #8a5a2b; }
+.stairs { background: #2e7dd7; }
+.chest  { background: #d4a017; }
+.enemy  { background: #c0392b; border-radius: 50%; }
+.player { background: #2ecc71; border-radius: 50%; }
+aside { width: 260px; }
+#log li { font-size: 13px; }
+#message { font-size: 28px; font-weight: bold; }
